@@ -1,11 +1,9 @@
-import React from 'react'
+import { heroIllustration } from "../assets"
 
-function hero() {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const Hero = () => (
+  <section>
+    
+  </section>
+)
 
-export default hero
+export default Hero

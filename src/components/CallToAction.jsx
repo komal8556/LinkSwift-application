@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CallToAction() {
+const CallToAction = () => {
   return (
     <div>
       
@@ -9,3 +9,4 @@ function CallToAction() {
 }
 
 export default CallToAction
+

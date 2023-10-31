@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CardsInfo() {
+const CardsInfo = () => {
   return (
     <div>
       
@@ -9,3 +9,4 @@ function CardsInfo() {
 }
 
 export default CardsInfo
+

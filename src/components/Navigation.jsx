@@ -1,6 +1,6 @@
 import React from 'react'
 
-function navigation() {
+const navigation = () => {
   return (
     <div>
       
@@ -9,3 +9,4 @@ function navigation() {
 }
 
 export default navigation
+

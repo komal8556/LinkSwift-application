@@ -1,6 +1,6 @@
 import React from 'react'
 
-function UrlShortener() {
+const UrlShortener = () => {
   return (
     <div>
       
@@ -9,3 +9,4 @@ function UrlShortener() {
 }
 
 export default UrlShortener
+
