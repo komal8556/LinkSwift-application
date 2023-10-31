@@ -1,10 +1,20 @@
+import { Navigation, Hero, UrlShortener, CardsInfo, CallToAction, Footer } from "./components"
+
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <div className="max-w-[1400px] px-8">
+        <Navigation />
+        <main>
+          <Hero />
+          <UrlShortener />
+          <CardsInfo />
+          <CallToAction />
+          <Footer />
+        </main>
+      </div>
+        <Footer />
     </>
   )
 }
