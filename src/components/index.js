@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import UrlShortener from "./UrlShortener";
 import CardsInfo from "./CardsInfo";
 import CallToAction from "./CallToAction";
-import Footer from "./CardsInfo";
+import Footer from "./Footer";
 
 export {
     Navigation,
@@ -11,5 +11,5 @@ export {
     UrlShortener,
     CardsInfo,
     CallToAction,
-    Footer
+    Footer,
 }

@@ -11,10 +11,9 @@ function App() {
           <UrlShortener />
           <CardsInfo />
           <CallToAction />
-          <Footer />
         </main>
       </div>
-        <Footer />
+      <Footer />
     </div>
   )
 }
