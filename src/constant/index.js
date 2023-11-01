@@ -1,4 +1,4 @@
-import { heroIllustration, lightBulb, pen, bars } from "../assets";
+import { lightBulb, pen, bars } from "../assets";
 
 export const navLinks = [
     {

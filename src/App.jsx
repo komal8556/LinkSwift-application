@@ -3,8 +3,8 @@ import { Navigation, Hero, UrlShortener, CardsInfo, CallToAction, Footer } from 
 function App() {
 
   return (
-    <>
-      <div className="max-w-[1400px] px-8">
+    <div className="h-full w-full font-Poppins bg-background">
+      <div className="max-w-[86rem] mx-auto px-8">
         <Navigation />
         <main>
           <Hero />
@@ -15,7 +15,7 @@ function App() {
         </main>
       </div>
         <Footer />
-    </>
+    </div>
   )
 }
 
