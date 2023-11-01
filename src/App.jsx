@@ -10,9 +10,9 @@ function App() {
           <Hero />
           <UrlShortener />
           <CardsInfo />
-          <CallToAction />
         </main>
       </div>
+      <CallToAction />
       <Footer />
     </div>
   )
