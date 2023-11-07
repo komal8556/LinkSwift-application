@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import InputForm from './InputForm'
 import UrlDisplay from "./UrlDisplay";
 import axios from "axios";
@@ -32,6 +32,7 @@ const UrlShortener = () => {
       const shortenedUrl = response.data.id;
       setShortUrl(shortenedUrl);
       // console.log(shortenedUrl);
+      setLink(shortUrl)
 
       setLoading(false)
 
@@ -41,10 +42,10 @@ const UrlShortener = () => {
       setLoading(false)
     }
 
-    setLink({shortUrl})
-
   };
 
+  // console.log(link)
+  
   const handleCopy = () => {
     setCopied(true)
     setTimeout(() => {
@@ -52,7 +53,9 @@ const UrlShortener = () => {
     }, 3000)
   };
 
-  
+  const handleDelete = () => {
+    console.log("delete button is clicked")
+  }
 
   return (
     <section className="py-20 ">
@@ -69,7 +72,7 @@ const UrlShortener = () => {
           </div>
         } 
         {shortUrl && 
-        <UrlDisplay url={shortUrl} onCopy={handleCopy} />
+        <UrlDisplay url={shortUrl} onCopy={handleCopy} onDelete={handleDelete} />
         }
      </div>
     </section>
